@@ -1,0 +1,33 @@
+<html lang="en">
+
+    <head>
+        <title>Coffee!</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+        <div id="submission">
+        <h1 class="centeredText">Add a Coffee Order</h1>
+        <h4>email: <input id="email" type="text"></h4>
+        <h4>drink: <input id="coffeeOrder" type="text"></h4>
+        <button id="submitBtn">Submit</button>
+        </div>
+        <h1 class="centeredText">Delete order</h1>
+        <h4 id="toDelete">email: <input id="deleteEmail" type="text"></h4>
+        <button id="deleteBtn">Delete</button>
+        <h1 style="text-align: center">Existing Orders</h1>
+        <div id="display">
+            <ul id="orders">
+
+            </ul>
+        </div>
+    </body>
+
+<script src="controller.js"></script>
+</html>
+
